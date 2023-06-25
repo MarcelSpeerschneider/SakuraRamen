@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakura Ramen</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://fonts.googleapis.com/css2?family=Economica:wght@700&display=swap" rel="stylesheet">
+    <script src="./script.js"></script>
+
+
+</head>
+
+<body>
+    <div class="maincontainer" id="start">
+
+        <div class="language">
+            <button id="english" onclick="translateGermanToEnglish()"><img src="./img/english.png"></button>
+            <button id="german" onclick="translateEnglishToGerman()"><img src="./img/german.png"></button>
+        </div>
+
+        <nav>
+            <div>
+                <img src="./img/saku.png" alt="flower" class="flower hidden-mobile">
+            </div>
+            <div class="nav-links nav-links-wrap">
+                <a href="#menu" id="nav-menu">MENU</a>
+                <a href="#locations" id="nav-locations">LOCATIONS</a>
+                <a href="" id="nav-about">ABOUT</a>
+                <a href="tel: 0176 54564534" class="phone-button"><span
+                        class="material-symbols-outlined">call</span>0176 54564534</a>
+
+
+            </div>
+        </nav>
+
+        <div class="headline-box">
+            <h1>SAKURA RAMEN</h1>
+            <span class="headline-text-below" id="headline-text-below">THE BEST RAMEN IN TOWN</span>
+        </div>
+    </div>
+    </div>
+
+    <div class="container-middle">
+
+        <div class="container-headline" id="how-to-order">
+            HOW TO ORDER
+        </div>
+        <div class="order-icons">
+            <div>
+                <img src="./img/bowl_icon.jpg" alt="bowl_icon" id="pick-your-noodle"> <br>
+                <span id="pick-your-noodle">Pick<br>Your Noodle</span>
+            </div>
+            <div>
+                <img src="./img/broth_icon.png" alt="broth_icon"> <br>
+                <span id="pick-your-broth">Pick<br>Your Broth</span>
+            </div>
+            <div>
+                <img src="./img/eggs_icon.jpg" alt="eggs_icon"> <br>
+                <span id="add-your-toppings">Add <br>
+                Your Toppings</span>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <div class="menu-card" id="menu">
+        <div class="container-headline" id="our-menu">
+            OUR MENU
+        </div>
+        <div class="meal">
+            <img src="./img/r1.png" alt="r1" class="meal-img">
+            <table>
+                <th class="meal-headline">Tonkasu Ramen</th>
+                <tr>
+                    <td>CHICKEN</td>
+                    <td>11.95€</td>
+                </tr>
+                <tr>
+                    <td>BEEF</td>
+                    <td>12.95€</td>
+                </tr>
+                <tr>
+                    <td>SHRIMP</td>
+                    <td>13.95€</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="meal meal2">
+            <img src="./img/r2.png" alt="r1" class="meal-img">
+            <table class="meal2-table">
+                <th class="meal-headline">Spicy Miso Ramen</th>
+                <tr>
+                    <td>CHICKEN</td>
+                    <td>11.95€</td>
+                </tr>
+                <tr>
+                    <td>BEEF</td>
+                    <td>12.95€</td>
+                </tr>
+                <tr>
+                    <td>SHRIMP</td>
+                    <td>13.95€</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="meal">
+            <img src="./img/r3.png" alt="r1" class="meal-img">
+            <table>
+                <th class="meal-headline">Shio Ramen</th>
+                <tr>
+                    <td>CHICKEN</td>
+                    <td>11.95€</td>
+                </tr>
+                <tr>
+                    <td>BEEF</td>
+                    <td>12.95€</td>
+                </tr>
+                <tr>
+                    <td>SHRIMP</td>
+                    <td>13.95€</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+    <div>
+        <div>
+            <div class="container-headline-adress" id="locations">
+                FIND US AT
+            </div>
+            <div class="container-locations">
+                <img class="location-icon" src="./img/lo.png" alt="location-icon">
+                <span class="adress">Kapuzinerstraße 31, München, BY 80337</span>
+            </div>
+        </div>
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d43128.91964114075!2d18.990846331249987!3d47.49853350000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741dc6a0c8daa65%3A0xc95d7dba0601f2ec!2sSakura%20Ramen!5e0!3m2!1sde!2sde!4v1681129713179!5m2!1sde!2sde"
+            width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
+
+    <footer>
+        <div class="sakura-ramen-footer">
+            <a href="#start" style="text-decoration: none;"><img src="./img/saku.png" alt="flower"
+                    class="flower-footer hidden-mobile"><span>SAKURA RAMEN</span></a>
+        </div>
+        <div class="social-icons">
+            <a href=""><img src="./img/fb.png" alt="fb"></a>
+            <a href=""><img src="./img/ins.png" alt="ins"></a>
+            <a href=""><img src="./img/tripad.png" alt="tripad"></a>
+        </div>
+
+    </footer>
+
+</body>
